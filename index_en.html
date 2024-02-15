@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logo/favicon.ico">
+    <title>Home</title>
+    <link rel="stylesheet" href="index_style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<style>
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .notification {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+</style>
+
+</head>
+
+<body>
+    <div class="overlay" id="overlay">
+        <div class="notification">
+            <h1>Thông báo</h1>
+            <p>Nội dung thông báo của bạn</p>
+            <button id="okButton">OK</button>
+        </div>
+    </div>
+
+<audio src="./img/music.mp3"></audio>
+<section class="container">
+    <div class="slide">
+        <div class="item" style="background-image: url(img/drive.jpg);">
+            <div class="content">
+                <div class="name" style="background: transparent;">Frist image</div>
+                <div class="des" style="background: transparent;">Đây là tấm ảnh đầu tiên trong album của chúng ta. 
+                    Giống như sự khởi đầu của một hành trình dài</div>
+                <div class="des" style="background: transparent;font-size: 20px;">24/9/2023</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/us8.jpg);">
+            <div class="content">
+                <div class="name">The shadows</div>
+                <div class="des">Những buổi tối lượn vòng vòng, tâm sự những truyện trên đời dưới đất.</div>
+                <div class="des" style="background: transparent;font-size: 20px;">03:03 AM - 24/9/2023</div>
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/us7.jpg);">
+            <div class="content">
+                <div class="name" style="background: transparent;color: #fff;">The eyes</div>
+                <div class="des" style="background: transparent;color: #fff;">Những đôi mắt ngáo ngơ, những nụ cười ngờ ngệch</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/btf5.jpg);">
+            <div class="content">
+                <div class="name">The little angel</div>
+                <div class="des">Lần đầu tiên 2 đứa ở chung và đánh dấu cho sự hẹn hò của đôi mình.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/btf6.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;color: #000;">The new role</div>
+                <div class="des" style="color: #000;">Nhìn xem ai vừa bị té xe mà vẫn trông rất xinh xắn và tự tin. </div>
+                <div class="des" style="font-weight: 800;color: #000;">Nhìn xem sự thành công biết bao người thèm.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/us6.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;;">The ambiguity</div>
+                <div class="des" >Một thoáng nghĩ ngơi, một thoáng nhìn lại.  </div>
+                <div class="des" style="font-weight: 800;">Dù là cái bóng anh vẫn theo em.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/btf3.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;color: cornflowerblue;">The success</div>
+                <div class="des" style="color: #fff;">Sau bao nỗ lực, em cũng đã có những thành quả cho mình. </div>
+                <div class="des" style="font-weight: 800;color: #fff;">Nhưng dù em là ai đi nữa anh vẫn luôn yêu em.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/us5.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The pictures</div>
+                <div class="des" >Lần đầu tiên anh bước vào tiệm chụp ảnh này á. </div>
+                <div class="des" style="font-weight: 800;">Cảm ơn vì sự kiên nhẫn của em.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/us9.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The movies</div>
+                <div class="des" >Sau một ngày mệt nhoài có em bên cạnh thật là vui. </div>
+                <div class="des" style="font-weight: 800;">Hy vọng những ngày sau vẫn luôn như vậy.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/btf4.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The flowers</div>
+                <div class="des" >Em cũng như những bông hóa ấy, tràn đầy sức sống, xinh đẹp và rạng rỡ. </div>
+                <div class="des" style="font-weight: 800;">Dù năm tháng có thay thì tình yêu anh chỉ lớn hơn thôi.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/us2.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The kids</div>
+                <div class="des" >Chúng ta vẫn là những đứa trẻ, là những mầm cây đầy nhiệt huyết. </div>
+                <div class="des" style="font-weight: 800;">Xin lỗi vì anh đã quên mất điều đó.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/us4.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The hats</div>
+                <div class="des" >Những món quà tuy nhỏ nhưng chúng ta đều vui. </div>
+                <div class="des" style="font-weight: 800;">Bây giờ chắc không còn nữa rồi nhỉ ^^.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/us3.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The sides</div>
+                <div class="des" >Nhũng nụ cười luôn ỡ trên môi, những ngày thật vui. </div>
+                <div class="des" style="font-weight: 800;">Chúng ta cũng chẳng còn cười nhiều như vậy .</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/us1.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The nights</div>
+                <div class="des" >Bỏ qua bài kiểm tra, bỏ qua những trách nhiệm chúng ta đi thật xa. </div>
+                <div class="des" style="font-weight: 800;">Anh sẽ khắc ghi điều đó nếu anh là một đứa trẻ .</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/rp.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The impotence</div>
+                <div class="des" >Đôi khi cố gắng cũng không thể sửa chữa hết mọi thứ. </div>
+                <div class="des" style="font-weight: 800;">Nhưng anh hi vọng bọn mình sẽ không thay thế ai vào vị trí còn lại.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/btf2.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The comfort</div>
+                <div class="des" >Em không cần mặc đẹp vì anh thích em thôi. </div>
+                <div class="des" style="font-weight: 800;">Khi vẽ ngoài không còn quan trọng thì em nghĩ anh yêu em vì gì ?</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/tgt.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The dates</div>
+                <div class="des" >Lâu rồi nhỉ, đã rất lâu rồi mình không có thời gian để hẹn hò như vậy. </div>
+                <div class="des" style="font-weight: 800;">Anh cũng nhớ những cuộc hẹn hò này.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/btf1.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The new house</div>
+                <div class="des" >Hai đứa mình dọn nhà nè, nhưng lại không phải nhà của cả 2 đứa. </div>
+                <div class="des" style="font-weight: 800;">Anh sẽ cố gắng vì tương lai của chúng ta.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/eat.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The nick names</div>
+                <div class="des" >Biết tại sao anh hay dắt em đi ăn phở không. Vì ba anh cũng từng làm vậy với anh </div>
+                <div class="des" style="font-weight: 800;">Tình yêu là thứ không bao giờ mất đi.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/eat.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The loves</div>
+                <div class="des" >Đây là cái ly người yêu cũ em mua đấy ^^ </div>
+                <div class="des" style="font-weight: 800;">Đôi khi sự đánh đổi là cần thiết.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/fl_catus.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The achievements</div>
+                <div class="des" >Thành quả đầu tiên của tình yêu</div>
+                <div class="des" style="font-weight: 800;">Sau cái rực rỡ là sự lụi tàn.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/us.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The shy</div>
+                <div class="des" >Đôi khi anh rất ngại, ngại vì sự xinh đẹp của em á</div>
+                <div class="des" style="font-weight: 800;">Em luôn là món quà, là thứ quý giá nhất của anh.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/btf.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The beauty</div>
+                <div class="des" >Nhìn đôi môi ấy, cho anh hôn nhé </div>
+                <div class="des" style="font-weight: 800;">Nhìn em anh bối rối.</div>
+                <!-- <button>See more</button> -->
+            </div>
+        </div>
+        <div class="item" style="background-image: url(img/text.jpg);">
+            <div class="content" style="background: transparent;">
+                <div class="name" style="background: transparent;">The silent</div>
+                <div class="des" >Từ ngày 10/1 chúng ta đã không có thêm bức ảnh nào nữa rồi</div>
+                <div class="des" style="font-weight: 800;">Hứa với anh, chúng ta có thể làm lại nó được không?.</div>
+                <link href=""><button>See more</button>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+            <button id="prev"><i class="fa-solid fa-angle-left"></i></button>  
+            <button id="next"><i class="fa-solid fa-angle-right"></i></button>  
+    </div>
+</section>
+
+<script src="index.js"></script>
+
+<script>
+    // Lấy các phần tử cần sử dụng
+    const overlay = document.getElementById('overlay');
+    const okButton = document.getElementById('okButton');
+
+    // Phát âm thanh
+    function playSound() {
+        const audio = new Audio('./img/music.mp3');
+        audio.play();
+    }
+
+    // Xử lý sự kiện khi nhấp vào nút "OK"
+    function handleOkClick() {
+        // Ẩn hộp thông báo
+        overlay.classList.remove('show');
+
+        // Phát âm thanh
+        playSound();
+
+        // Xóa hiệu ứng làm mờ nền
+        document.body.style.overflow = 'auto';
+    }
+
+    // Gán sự kiện click cho nút "OK"
+    okButton.addEventListener('click', handleOkClick);
+
+    // Hiển thị hộp thông báo và làm mờ nền khi trang được tải
+    window.addEventListener('DOMContentLoaded', function() {
+        overlay.classList.add('show');
+        document.body.style.overflow = 'hidden';
+    });
+</script>
+
+</body>
+</html>
