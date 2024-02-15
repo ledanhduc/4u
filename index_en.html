@@ -23,11 +23,19 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 1);
         z-index: 9999;
         display: flex;
         align-items: center;
         justify-content: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+    }
+
+    .overlay.show {
+        opacity: 1;
+        pointer-events: auto;
     }
 
     .notification {
@@ -43,8 +51,8 @@
 <body>
     <div class="overlay" id="overlay">
         <div class="notification">
-            <h1>Thông báo</h1>
-            <p>Nội dung thông báo của bạn</p>
+            <h1>Em đã sẵn sàng chưa ^^</h1>
+            <p>Nhấn nút để bắt đầu hen</p>
             <button id="okButton">OK</button>
         </div>
     </div>
