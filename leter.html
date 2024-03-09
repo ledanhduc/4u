@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <title>Be my woman</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -32,6 +32,8 @@
         const letter = document.querySelector('.letter');
         envelope.addEventListener('click', () => {
             envelope.classList.toggle('flap');
+            const audio = new Audio('cttl.mp3');
+            audio.play();
         });
         letter.addEventListener('click', () => {
             letter.classList.toggle('flap');
